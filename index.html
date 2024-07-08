@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MedEd</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size: 16px;}
+img {margin-bottom: -8px;}
+.mySlides {display: none;}
+</style>
+</head>
+<body class="w3-content w3-black" style="max-width:1500px;">
+
+<!-- Header with Slideshow -->
+<header class="w3-display-container w3-center">
+  <button class="w3-button w3-block w3-green w3-hide-large w3-hide-medium" onclick="document.getElementById('download').style.display='block'">Download <i class="fa fa-android"></i> <i class="fa fa-apple"></i> <i class="fa fa-windows"></i></button>
+  <div class="mySlides w3-animate-opacity">
+    <img class="w3-image" src="https://images.everydayhealth.com/homepage/health-topics-2.jpg?w=720" alt="Image 1" style="min-width:500px" width="1500" height="1000">
+    <div class="w3-display-left w3-padding w3-hide-small" style="width:35%">
+      <div class="w3-black w3-opacity w3-hover-opacity-off w3-padding-large w3-round-large">
+        <h1 class="w3-xlarge">Make sure health always comes first with MedEd</h1>
+        <hr class="w3-opacity">
+        <p>Super simple installment: free of charge</p>
+        <p><button class="w3-button w3-block w3-green w3-round" onclick="document.getElementById('download').style.display='block'">Download <i class="fa fa-android"></i> <i class="fa fa-apple"></i> <i class="fa fa-windows"></i></button></p>
+      </div>
+    </div>
+  </div>
+  <div class="mySlides w3-animate-opacity">
+    <img class="w3-image" src="https://www.statnews.com/wp-content/uploads/2022/03/AdobeStock_246942922.jpeg" alt="Image 2" style="min-width:500px" width="1500" height="1000">
+    <div class="w3-display-left w3-padding w3-hide-small" style="width:35%">
+      <div class="w3-black w3-opacity w3-hover-opacity-off w3-padding-large w3-round-large">
+        <h1 class="w3-xlarge w3-text-red"><b>CLICK!</b> Fast and Easy</h1>
+        <hr class="w3-opacity">
+        <p>Choose from thousands of features (meditation, therapy services, etc)</p>
+        <p><button class="w3-button w3-block w3-red w3-round" onclick="document.getElementById('download').style.display='block'">Download <i class="fa fa-android"></i> <i class="fa fa-apple"></i> <i class="fa fa-windows"></i></button></p>
+      </div>
+    </div>
+  </div>
+  <div class="mySlides w3-animate-opacity">
+    <img class="w3-image" src="https://images.everydayhealth.com/images/healthy-living/about-us-hero-alt.jpg?sfvrsn=68592040_1" alt="Image 3" style="min-width:500px" width="1500" height="1000">
+    <div class="w3-display-left w3-padding w3-hide-small" style="width:35%">
+      <div class="w3-black w3-opacity w3-hover-opacity-off w3-padding-large w3-round-large">
+        <h1 class="w3-xlarge">Life skills</h1>
+        <hr class="w3-opacity">
+        <p>This app aims to improve you and your health</p>
+        <p><button class="w3-button w3-block w3-indigo w3-round" onclick="document.getElementById('download').style.display='block'">Download <i class="fa fa-android"></i> <i class="fa fa-apple"></i> <i class="fa fa-windows"></i></button></p>
+      </div>
+    </div>
+  </div>
+  <a class="w3-button w3-black w3-display-right w3-margin-right w3-round w3-hide-small w3-hover-light-grey" onclick="plusDivs(1)">Take Tour <i class="fa fa-angle-right"></i></a>
+  <a class="w3-button w3-block w3-black w3-hide-large w3-hide-medium" onclick="plusDivs(1)">Take Tour <i class="fa fa-angle-right"></i></a>
+</header>
+
+<!-- The App Section -->
+<div class="w3-padding-64 w3-white">
+  <div class="w3-row-padding">
+    <div class="w3-col l8 m6">
+      <h1 class="w3-jumbo w3-text-blue"><b>MedEd</b></h1>
+      <h1 class="w3-xxlarge w3-text-green"><b>About MedEd</b></h1>
+      <p><span class="w3-xlarge"></span> MedEd is an app that is dedicated to offer people life skills with valuable health information, resources, and community support. The app has articles linked on it, including health topics, tips, and tools for managing your health conditions. The apps objective is to find ways to improve your health and your well-being, ad tries its best to support your community and guide you to improve your health.</p>
+      <button class="w3-button w3-green w3-padding-large w3-section w3-hide-small" onclick="document.getElementById('Login').style.display='block'"> Login
+      </button>
+      <p>Available for <i class="fa fa-android w3-xlarge w3-text-green"></i> <i class="fa fa-apple w3-xlarge"></i> <i class="fa fa-windows w3-xlarge w3-text-blue"></i></p>
+    </div>
+    <div class="w3-col l4 m6">
+      <img src="https://static.vecteezy.com/system/resources/thumbnails/006/979/161/small/modern-health-care-medical-logo-template-free-vector.jpg" class="w3-image w3-right w3-hide-small" width="335" height="471">
+      <div class="w3-center w3-hide-large w3-hide-medium">
+        <button class="w3-button w3-block w3-padding-large" onclick="document.getElementById('Login').style.display='block'"> Login
+        </button>
+        <img src="/w3images/img_app.jpg" class="w3-image w3-margin-top" width="335" height="471">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="download" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content" style="padding:32px">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('download').style.display='none'" class="fa fa-remove w3-xlarge w3-button w3-transparent w3-right w3-xlarge"></i>
+      <h2 class="w3-wide">DOWNLOAD</h2>
+      <p>Download the app in AppStore, Google Play or Microsoft Store.</p>
+      <i class="fa fa-android w3-large"></i> <i class="fa fa-apple w3-large"></i> <i class="fa fa-windows w3-large"></i>
+      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
+      <button type="button" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('download').style.display='none'">Fake Download</button>
+    </div>
+  </div>
+</div>
+
+<div id="Login" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content" style="padding:32px">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('Login').style.display='none'" class="fa fa-remove w3-xlarge w3-button w3-transparent w3-right w3-xlarge"></i>
+      <h2 class="w3-wide">LOGIN</h2>
+      <p>Login to get the latest updates of the app</p>
+      <i class="fa fa-android w3-large"></i> <i class="fa fa-apple w3-large"></i> <i class="fa fa-windows w3-large"></i>
+      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" pattern="[A-Za-z]" required></p>
+      <p><input class="w3-input w3-border" type="password" placeholder="Enter password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required></p>
+      <a href='Fake Download'>
+        <button type="button" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('Fake Download').style.pagebreakAfter='always'";>Login</button>
+      </a>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Clarity Section -->
+<div class="w3-container" style="padding:128px 16px" id="about">
+    <h3 class="w3-center">Reasons why you should get MedEd</h3>
+    <div class="w3-row-padding w3-center" style="margin-top:64px">
+      <div class="w3-third">
+        <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
+        <p class="w3-large">Responsive</p>
+        <p>The app is very quick to respond whenever there are people trying to find advice and always works to fix any concerns there are about the app</p>
+      </div>
+      <div class="w3-third">
+        <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
+        <p class="w3-large">Design</p>
+        <p>The app is very device compatible. It can be available on your phone, computer, etc. There are hotlines linked and a lot of resources included in the app that works on improving your health</p>
+      </div>
+      <div class="w3-third">
+        <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
+        <p class="w3-large">Support</p>
+        <p>The apps objective is to help people out with their health if they are going through a hard time or if they are in need of support. It also listens and responds to feedback</p>
+      </div>
+    </div>
+  </div>
+
+<!-- Features Section -->
+<div class="w3-container w3-padding-64 w3-dark-grey w3-center">
+  <h1 class="w3-jumbo"><b>Features</b></h1>
+
+  <div class="w3-row" style="margin-top:64px">
+    <div class="w3-col s3">
+      <img src="https://static.vecteezy.com/system/resources/thumbnails/014/968/701/small_2x/newspaper-paper-press-line-drawing-png.png" alt="a" height="75"></img>
+      <p>Articles</p>
+    </div>
+    <div class="w3-col s3">
+      <img src="https://cdn-icons-png.flaticon.com/512/2302/2302790.png" alt="a" height="75"></img>
+      <p>Fitness/Nutrition Tracking</p>
+    </div>
+    <div class="w3-col s3">
+      <img src="https://www.freepnglogos.com/uploads/pencil-png/pencil-clipart-black-and-white-clipart-panda-29.png" alt="a" height="75"></img>
+      <p>Education</p>
+    </div>
+    <div class="w3-col s3">
+      <img src="https://i.pinimg.com/originals/fd/76/23/fd7623e0d47aa612542a64d81d101f8d.png" alt="a" height="75"></img>
+      <p>Meditation</p>
+    </div>
+  </div>
+
+  <div class="w3-row" style="margin-top:64px">
+    <div class="w3-col s3">
+      <img src="https://static.vecteezy.com/system/resources/previews/016/473/799/original/wall-calendar-doodle-hand-drawing-png.png" alt="a" height="75"></img>
+      <p>Reminders</p>
+    </div>
+    <div class="w3-col s3">
+      <img src="https://png.pngtree.com/png-vector/20221020/ourmid/pngtree-vector-black-line-glowing-idea-bulb-clipart-design-png-image_6352152.png" alt="a" height="75"></img>
+      <p>Advice</p>
+    </div>
+    <div class="w3-col s3">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Medkit_font_awesome-red.svg/1200px-Medkit_font_awesome-red.svg.png" alt="a" height="75"></img>
+      <p>Emergency Assistance</p>
+    </div>
+    <div class="w3-col s3">
+      <img src="https://pngimg.com/d/paper_plane_PNG10.png" alt="a" height="75"></img>
+      <p>Guidance</p>
+    </div>
+  </div>
+  
+  <div class="w3-row" style="margin-top:64px">
+    <div class="w3-col s3">
+      <img src="https://purepng.com/public/uploads/thumbnail/drawing-mobile-rak.png" alt="a" height="75"></img>
+      <p>Hotlines</p>
+    </div>
+    <div class="w3-col s3">
+      <i class="fa fa-shield w3-text-blue w3-jumbo"></i>
+      <p>Privacy</p>
+    </div>
+    <div class="w3-col s3">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/No_WiFi.svg/1280px-No_WiFi.svg.png" alt="a" height="75"></img>
+      <p>Offline Access</p>
+    </div>
+    <div class="w3-col s3">
+      <i class="fa fa-cog w3-text-gray w3-jumbo"></i>
+      <p>Settings</p>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-light-grey w3-center w3-xlarge">
+  <div class="w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</footer>
+
+<script>
+// Slideshow
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+</body>
+</html>
+
